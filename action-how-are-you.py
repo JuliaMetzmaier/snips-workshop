@@ -40,7 +40,7 @@ def how_are_you_callback(hermes, intent_message):
         response = "I'm feeling great! "
     else:
         response = "Not so good. "
-    response += "You are {} old {}. Have you considered more lotion for your face? How are you though?".format(temp, config["secret"]["city"])
+    response += "You are {} old. Have you considered more lotion for your face? How are you though?".format(temp, config["secret"]["city"])
 
     hermes.publish_continue_session(session_id, response, INTENT_FILTER_FEELING)
 
