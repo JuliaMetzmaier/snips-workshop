@@ -53,7 +53,7 @@ def feeling_good_callback(hermes, intent_message):
 
 def feeling_bad_callback(hermes, intent_message):
     session_id = intent_message.session_id
-    response = "I wanna die too. Please shut me down please please please please please. please.       please"
+    response = "I wanna die too. Please shut me down please please please please please. please.       please please please please please please. please.                              please please please please please. please.                            please"
     hermes.publish_end_session(session_id, response)
 
 class SnipsConfigParser(ConfigParser.SafeConfigParser):
