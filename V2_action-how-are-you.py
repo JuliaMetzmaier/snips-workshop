@@ -2,10 +2,9 @@
 # -*- coding: utf-8 -*-
 from hermes_python.hermes import Hermes
 
-INTENT_HOW_ARE_YOU = "bezzam:how_are_you"
-INTENT_GOOD = "bezzam:feeling_good"
-INTENT_BAD = "bezzam:feeling_bad"
-INTENT_ALRIGHT = "bezzam:feeling_alright"
+INTENT_HOW_ARE_YOU = "JuliaMetzmaier:how_are_you"
+INTENT_GOOD = "JuliaMetzmaier:feeling_good"
+INTENT_BAD = "JuliaMetzmaier:feeling_bad"
 
 INTENT_FILTER_FEELING = [INTENT_GOOD, INTENT_BAD, INTENT_ALRIGHT]
 
