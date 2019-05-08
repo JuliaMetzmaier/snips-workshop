@@ -13,7 +13,7 @@ def main():
 
 def how_are_you_callback(hermes, intent_message):
     session_id = intent_message.session_id
-    response = "I'm doing great."
+    response = "Fuck you."
     hermes.publish_end_session(session_id, response)
 
 
