@@ -56,13 +56,6 @@ def feeling_bad_callback(hermes, intent_message):
     response = "Du bist so geil."
     hermes.publish_end_session(session_id, response)
 
-
-def feeling_alright_callback(hermes, intent_message):
-    session_id = intent_message.session_id
-    response = "Du Schnittchen!"
-    hermes.publish_end_session(session_id, response)
-
-
 class SnipsConfigParser(ConfigParser.SafeConfigParser):
     def to_dict(self):
         return {section : {option_name : option for option_name, option in self.items(section)} for section in self.sections()}
