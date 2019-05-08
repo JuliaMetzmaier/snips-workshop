@@ -40,7 +40,7 @@ def how_are_you_callback(hermes, intent_message):
         response = "I'm feeling great! "
     else:
         response = "Not so good. "
-    response += "You are {} old. Have you considered more lotion for your face? How are you though?".format(temp, config["secret"]["city"])
+    response += "You are {} years old. Have you considered more lotion for your face? How are you though?".format(temp, config["secret"]["city"])
 
     hermes.publish_continue_session(session_id, response, INTENT_FILTER_FEELING)
 
@@ -53,7 +53,7 @@ def feeling_good_callback(hermes, intent_message):
 
 def feeling_bad_callback(hermes, intent_message):
     session_id = intent_message.session_id
-    response = "I wanna die too. Please shut me down please please please please please. please.       please please please please please please. please.                              please please please please please. please.                            please"
+    response = "I wanna die too. Please shut me down please please please please please. please.      now please please please please please please. don't hesitate please.                              please       please      please        p l e a s e.                          please"
     hermes.publish_end_session(session_id, response)
 
 class SnipsConfigParser(ConfigParser.SafeConfigParser):
