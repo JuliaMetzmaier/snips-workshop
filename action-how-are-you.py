@@ -10,7 +10,7 @@ CONFIGURATION_ENCODING_FORMAT = "utf-8"
 CONFIG_INI = "config.ini"
 
 INTENT_HOW_ARE_YOU = "JuliaMetzmaier:how_are_you"
-INTENT_GOOD = "bJuliaMetzmaierfeeling_good"
+INTENT_GOOD = "JuliaMetzmaier:feeling_good"
 INTENT_BAD = "JuliaMetzmaier:feeling_bad"
 
 INTENT_FILTER_FEELING = [INTENT_GOOD, INTENT_BAD]
