@@ -53,7 +53,7 @@ def feeling_good_callback(hermes, intent_message):
 
 def feeling_bad_callback(hermes, intent_message):
     session_id = intent_message.session_id
-    response = "Du bist so geil."
+    response = "Du bist so gile."
     hermes.publish_end_session(session_id, response)
 
 class SnipsConfigParser(ConfigParser.SafeConfigParser):
