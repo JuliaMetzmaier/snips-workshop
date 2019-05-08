@@ -6,7 +6,7 @@ INTENT_HOW_ARE_YOU = "JuliaMetzmaier:how_are_you"
 INTENT_GOOD = "JuliaMetzmaier:feeling_good"
 INTENT_BAD = "JuliaMetzmaier:feeling_bad"
 
-INTENT_FILTER_FEELING = [INTENT_GOOD, INTENT_BAD, INTENT_ALRIGHT]
+INTENT_FILTER_FEELING = [INTENT_GOOD, INTENT_BAD]
 
 
 def main():
